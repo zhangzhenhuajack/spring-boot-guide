@@ -1,0 +1,33 @@
+<configuration>
+    <springProperty scope="context" name="springAppName" source="spring.application.name"/>
+    <springProfile name="production">
+        <!-- configuration to be enabled when the "production" profile is  active -->
+
+        <!-- Configure the Console appender -->
+        <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder>
+                <pattern>
+                    [${PID}] %d{yyyy-MM-dd HH:mm:ss.SSS} - [${springAppName:-app},%X{traceId:-0},%X{spanId:-0},%X{exportable:-false}] - %-5level [%thread] %logger.%M(%line) - %msg%n
+                </pattern>
+            </encoder>
+        </appender>
+    </springProfile>
+
+    <springProfile name="!production">
+        <!-- configuration to be enabled when the "production" profile is not active -->
+
+        <!-- Configure the Console appender -->
+        <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder>
+                <pattern>
+                    %boldMagenta([${PID}]) %d{yyyy-MM-dd HH:mm:ss.SSS} - %boldCyan([${springAppName:-app},%X{traceId:-0},%X{spanId:-0},%X{exportable:-false}]) - %highlight(%-5level) %magenta([%thread]) %boldGreen(%logger.%M) - %msg%n
+                </pattern>
+            </encoder>
+        </appender>
+    </springProfile>
+
+    <!-- Enable the Console and Sentry appenders, Console is provided as an example  of a non-Sentry logger that is set to a different logging threshold -->
+    <root level="INFO">
+        <appender-ref ref="Console"/>
+    </root>
+</configuration>
