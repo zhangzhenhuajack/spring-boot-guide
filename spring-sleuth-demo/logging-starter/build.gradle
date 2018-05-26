@@ -1,0 +1,108 @@
+buildscript {
+    ext {
+        springBootVersion = '2.0.0.RELEASE'
+        springCloudVersion = 'Finchley.M9'
+        alo7FrameworkJmsVersion = '0.0.2-SNAPSHOT'
+    }
+    repositories {
+        mavenLocal()
+        maven {
+            url 'https://repos.saybot.net/repository/maven-public/'
+        }
+        maven {
+            url 'https://repos.saybot.net/repository/maven-alo7/'
+        }
+        mavenCentral()
+    }
+    dependencies {
+        classpath "io.spring.gradle:dependency-management-plugin:0.5.2.RELEASE"
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath 'com.bmuschko:gradle-nexus-plugin:2.3.1'
+    }
+}
+
+//add sonarqube
+plugins {
+    id "org.sonarqube" version "2.6.1"
+}
+sonarqube {
+    properties {
+        property "sonar.host.url", "https://k8s-sonar.dev.saybot.net"
+        property "sonar.exclusions", "**/io/agora/**, **/com/yahoo/**, **/AgoraJavaRecording.java"
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'com.bmuschko.nexus'
+
+group = 'com.alo7.framework'
+
+version = '1.0.6-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://repos.saybot.net/repository/maven-public/'
+    }
+    maven {
+        url 'https://repos.saybot.net/repository/maven-alo7/'
+    }
+    maven { url 'https://repo.spring.io/libs-snapshot' }
+    maven { url "https://repo.spring.io/milestone" }
+}
+
+configurations {
+    optional
+    compile.extendsFrom optional
+}
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compileOnly 'org.projectlombok:lombok:1.16.+'
+    compile 'io.sentry:sentry-logback:1.7.2'
+    //sleuth
+    compile('org.springframework.cloud:spring-cloud-starter-sleuth')
+    compile('org.springframework.cloud:spring-cloud-starter-zipkin')
+    //tracing db
+    compile('io.zipkin.brave:brave-instrumentation-mysql:5.0.0')
+
+    //trancing for jms,used to import jms
+    compileOnly("com.alo7.framework.jms:starter-jms-amazon:${alo7FrameworkJmsVersion}")
+    //trancing for jms
+    compile('io.opentracing.brave:brave-opentracing')
+    compile('io.opentracing.contrib:opentracing-jms-2:1.0.0')
+    compile('io.opentracing.contrib:opentracing-jms-spring:1.0.0') {
+        exclude module: 'opentracing-jms-1'
+        exclude module: 'spring-jms'
+        exclude module: 'spring-context'
+    }
+
+
+    //test
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+}
+
+dependencyManagement {
+    imports {
+        mavenBom org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES
+    }
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
+
+extraArchive {
+    sources = true
+    tests = true
+    javadoc = true
+}
+nexus {
+    sign = false
+    repositoryUrl = 'http://repos.saybot.net/repository/maven-alo7-releases/'
+    snapshotRepositoryUrl = 'http://repos.saybot.net/repository/maven-alo7-snapshots/'
+}
