@@ -4,7 +4,7 @@
 ````
 
 
-引入依赖 : compile('com.alo7.framework:logging-starter:1.0.2-RELEASE')
+引入依赖 : compile('com.**.framework:logging-starter:1.0.2-RELEASE')
 
 
 ````
@@ -30,11 +30,11 @@ public class NotificationAdminConfiguration {
 配置项:
 
 //need application name(配置项目名称)
-spring.application.name=notification-api
+spring.application.name=your-application-api
 
 //logging(打印日志需要配置该项)
 logging.level.org.springframework.web.filter.CommonsRequestLoggingFilter=debug
-logging.level.com.alo7.framework.logging.interceptor.RequestLoggingInterceptor=debug
+logging.level.com.**.framework.logging.interceptor.RequestLoggingInterceptor=debug
 logging.level.org.springframework.web.servlet.DispatcherServlet=DEBUG
 // logging color
 spring.output.ansi.enabled=detect
@@ -54,7 +54,7 @@ spring.sleuth.opentracing.enabled=true
 #####引用logging-starter 的项目要创建 sentry.properties文件
 >文件内容
 ````$xslt
-dsn=https://c13b5f3f56b441518325d31177922101:c97ea0a1fecf45eca8d7482ce3a86ac8@sentry.dev.saybot.net/6
+dsn=https://c13b5f3f56b441518325d31177922101:c97ea0a1fecf45eca8d7482ce3a86ac8@sentry.dev.**.net/
 sample.rate=1
 #mdctags=foo,bar
 ````
@@ -70,7 +70,7 @@ java -Dsentry.dsn=https://public:private@host:port/1 -jar app.jar
 1. import jms  jar with gradle
 
 ````
-compile("com.alo7.framework.jms:starter-jms-amazon:${alo7FrameworkJmsVersion}") { changing = true }
+compile("com.**.framework.jms:starter-jms-amazon:${**FrameworkJmsVersion}") { changing = true }
 ````
 2.  in @Configuration import TracingJmsAutoConfiguration.class
 
@@ -84,7 +84,7 @@ compile("com.alo7.framework.jms:starter-jms-amazon:${alo7FrameworkJmsVersion}") 
 
 ````
 ````
-spring.datasource.url=jdbc:mysql://alo7-study.alpha.mysql.saybot.net:3306/notification?statementInterceptors=brave.mysql.TracingStatementInterceptor&useSSL=false
+spring.datasource.url=jdbc:mysql://**-study.alpha.mysql.**.net:3306/notification?statementInterceptors=brave.mysql.TracingStatementInterceptor&useSSL=false
 ````
 
 

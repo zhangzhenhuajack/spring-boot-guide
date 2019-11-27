@@ -2,15 +2,15 @@ buildscript {
     ext {
         springBootVersion = '2.0.0.RELEASE'
         springCloudVersion = 'Finchley.M9'
-        alo7FrameworkJmsVersion = '0.0.2-SNAPSHOT'
+        **FrameworkJmsVersion = '0.0.2-SNAPSHOT'
     }
     repositories {
         mavenLocal()
         maven {
-            url 'https://repos.saybot.net/repository/maven-public/'
+            url 'https://repos.**.net/repository/maven-public/'
         }
         maven {
-            url 'https://repos.saybot.net/repository/maven-alo7/'
+            url 'https://repos.**.net/repository/maven-**/'
         }
         mavenCentral()
     }
@@ -27,7 +27,7 @@ plugins {
 }
 sonarqube {
     properties {
-        property "sonar.host.url", "https://k8s-sonar.dev.saybot.net"
+        property "sonar.host.url", "https://k8s-sonar.dev.**.net"
         property "sonar.exclusions", "**/io/agora/**, **/com/yahoo/**, **/AgoraJavaRecording.java"
     }
 }
@@ -37,7 +37,7 @@ apply plugin: 'idea'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'com.bmuschko.nexus'
 
-group = 'com.alo7.framework'
+group = 'com.**.framework'
 
 version = '1.0.6-SNAPSHOT'
 
@@ -46,10 +46,10 @@ sourceCompatibility = 1.8
 repositories {
     mavenCentral()
     maven {
-        url 'https://repos.saybot.net/repository/maven-public/'
+        url 'https://repos.**.net/repository/maven-public/'
     }
     maven {
-        url 'https://repos.saybot.net/repository/maven-alo7/'
+        url 'https://repos.**.net/repository/maven-**/'
     }
     maven { url 'https://repo.spring.io/libs-snapshot' }
     maven { url "https://repo.spring.io/milestone" }
@@ -72,7 +72,7 @@ dependencies {
     compile('io.zipkin.brave:brave-instrumentation-mysql:5.0.0')
 
     //trancing for jms,used to import jms
-    compileOnly("com.alo7.framework.jms:starter-jms-amazon:${alo7FrameworkJmsVersion}")
+    compileOnly("com.**.framework.jms:starter-jms-amazon:${**FrameworkJmsVersion}")
     //trancing for jms
     compile('io.opentracing.brave:brave-opentracing')
     compile('io.opentracing.contrib:opentracing-jms-2:1.0.0')
@@ -103,6 +103,6 @@ extraArchive {
 }
 nexus {
     sign = false
-    repositoryUrl = 'http://repos.saybot.net/repository/maven-alo7-releases/'
-    snapshotRepositoryUrl = 'http://repos.saybot.net/repository/maven-alo7-snapshots/'
+    repositoryUrl = 'http://repos.**.net/repository/maven-**-releases/'
+    snapshotRepositoryUrl = 'http://repos.**.net/repository/maven-**-snapshots/'
 }
