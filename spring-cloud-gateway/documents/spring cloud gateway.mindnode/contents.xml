@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string></string>
+	<key>comments</key>
+	<string></string>
+	<key>isUsingConstrainedLayout</key>
+	<true/>
+	<key>keywords</key>
+	<string></string>
+	<key>mindMap</key>
+	<dict>
+		<key>associations</key>
+		<array/>
+		<key>color</key>
+		<string>{0.956, 0.966, 0.956, 1.000}</string>
+		<key>mainNodes</key>
+		<array>
+			<dict>
+				<key>contentAlignment</key>
+				<integer>1</integer>
+				<key>fillColor</key>
+				<string>{1.000, 1.000, 1.000, 1.000}</string>
+				<key>isDecreasingBranchThickness</key>
+				<true/>
+				<key>isDrawingFill</key>
+				<true/>
+				<key>isLeftAligned</key>
+				<false/>
+				<key>location</key>
+				<string>{-582.39453125, -45.24609375}</string>
+				<key>nodeID</key>
+				<string>2EA57EEE-FD86-46B1-B912-AF5F4424531C</string>
+				<key>strokeColor</key>
+				<string>{0.965, 0.965, 0.965, 1.000}</string>
+				<key>strokeStyle</key>
+				<integer>0</integer>
+				<key>strokeWidth</key>
+				<real>2</real>
+				<key>subnodes</key>
+				<array>
+					<dict>
+						<key>contentAlignment</key>
+						<integer>1</integer>
+						<key>fillColor</key>
+						<string>{1.000, 1.000, 1.000, 1.000}</string>
+						<key>isDecreasingBranchThickness</key>
+						<true/>
+						<key>isDrawingFill</key>
+						<false/>
+						<key>isLeftAligned</key>
+						<false/>
+						<key>location</key>
+						<string>{-299.39453125, -34.74609375}</string>
+						<key>nodeID</key>
+						<string>63B6A442-72EE-48C9-A874-D2AA1E0C72B5</string>
+						<key>strokeColor</key>
+						<string>{0.689, 0.215, 0.952, 1.000}</string>
+						<key>strokeStyle</key>
+						<integer>0</integer>
+						<key>strokeWidth</key>
+						<real>6</real>
+						<key>subnodes</key>
+						<array>
+							<dict>
+								<key>contentAlignment</key>
+								<integer>1</integer>
+								<key>fillColor</key>
+								<string>{1.000, 1.000, 1.000, 1.000}</string>
+								<key>isDecreasingBranchThickness</key>
+								<true/>
+								<key>isDrawingFill</key>
+								<false/>
+								<key>isLeftAligned</key>
+								<false/>
+								<key>location</key>
+								<string>{-170.39453125, -55.24609375}</string>
+								<key>nodeID</key>
+								<string>3AD7A402-4E67-4241-91B2-8960897B5185</string>
+								<key>strokeColor</key>
+								<string>{0.689, 0.215, 0.952, 1.000}</string>
+								<key>strokeStyle</key>
+								<integer>0</integer>
+								<key>strokeWidth</key>
+								<real>5</real>
+								<key>subnodes</key>
+								<array>
+									<dict>
+										<key>contentAlignment</key>
+										<integer>1</integer>
+										<key>fillColor</key>
+										<string>{1.000, 1.000, 1.000, 1.000}</string>
+										<key>isDecreasingBranchThickness</key>
+										<true/>
+										<key>isDrawingFill</key>
+										<false/>
+										<key>isLeftAligned</key>
+										<false/>
+										<key>location</key>
+										<string>{76.60546875, -169.24609375}</string>
+										<key>nodeID</key>
+										<string>3A0B46A6-DACC-419E-B569-29FA3EEF2233</string>
+										<key>strokeColor</key>
+										<string>{0.689, 0.215, 0.952, 1.000}</string>
+										<key>strokeStyle</key>
+										<integer>0</integer>
+										<key>strokeWidth</key>
+										<real>4</real>
+										<key>subnodes</key>
+										<array/>
+										<key>title</key>
+										<dict>
+											<key>constrainedWidth</key>
+											<integer>300</integer>
+											<key>htmlText</key>
+											<string>&lt;p style='color: rgba(91, 91, 91, 1.000000); font: 18px "PingFang SC"; -cocoa-font-postscriptname: "PingFangSC-Regular"; '&gt;目前已经第四代&lt;/p&gt;</string>
+											<key>shrinkToFitContent</key>
+											<integer>1</integer>
+											<key>text</key>
+											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset134 PingFangSC-Regular;}
+{\colortbl;\red255\green255\blue255;\red91\green91\blue91;}
+{\*\expandedcolortbl;;\csgenericrgb\c35700\c35700\c35700;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf2 \'c4\'bf\'c7\'b0\'d2\'d1\'be\'ad\'b5\'da\'cb\'c4\'b4\'fa}</string>
+										</dict>
+									</dict>
+									<dict>
+										<key>contentAlignment</key>
+										<integer>1</integer>
+										<key>fillColor</key>
+										<string>{1.000, 1.000, 1.000, 1.000}</string>
+										<key>isDecreasingBranchThickness</key>
+										<true/>
+										<key>isDrawingFill</key>
+										<false/>
+										<key>isLeftAligned</key>
+										<false/>
+										<key>location</key>
+										<string>{76.60546875, -128.24609375}</string>
+										<key>nodeID</key>
+										<string>6D6C699C-B1F0-42BC-A32C-6DBEF76E4FF0</string>
+										<key>strokeColor</key>
+										<string>{0.689, 0.215, 0.952, 1.000}</string>
+										<key>strokeStyle</key>
+										<integer>0</integer>
+										<key>strokeWidth</key>
+										<real>4</real>
+										<key>subnodes</key>
+										<array/>
+										<key>title</key>
+										<dict>
+											<key>constrainedWidth</key>
+											<integer>698</integer>
+											<key>htmlText</key>
+											<string>&lt;p style='color: rgba(91, 91, 91, 1.000000); font: 18px "Helvetica Neue"; -cocoa-font-postscriptname: "HelveticaNeue"; '&gt;Reactor-Core is a fully non-blocking foundation with efficient demand management. It directly interacts with Java functional API, Completable Future, Stream and Duration.&lt;/p&gt;</string>
+											<key>shrinkToFitContent</key>
+											<integer>0</integer>
+											<key>text</key>
+											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red91\green91\blue91;}
+{\*\expandedcolortbl;;\csgenericrgb\c35700\c35700\c35700;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf2 Reactor-Core is a fully non-blocking foundation with efficient demand management. It directly interacts with Java functional API, Completable Future, Stream and Duration.}</string>
+										</dict>
+									</dict>
+									<dict>
+										<key>contentAlignment</key>
+										<integer>1</integer>
+										<key>fillColor</key>
+										<string>{1.000, 1.000, 1.000, 1.000}</string>
+										<key>isDecreasingBranchThickness</key>
+										<true/>
+										<key>isDrawingFill</key>
+										<false/>
+										<key>isLeftAligned</key>
+										<false/>
+										<key>location</key>
+										<string>{76.60546875, -64.74609375}</string>
+										<key>nodeID</key>
+										<string>F5526DBF-65C9-4BA6-B6D6-C064934F4256</string>
+										<key>strokeColor</key>
+										<string>{0.689, 0.215, 0.952, 1.000}</string>
+										<key>strokeStyle</key>
+										<integer>0</integer>
+										<key>strokeWidth</key>
+										<real>4</real>
+										<key>subnodes</key>
+										<array>
+											<dict>
+												<key>contentAlignment</key>
+												<integer>1</integer>
+												<key>fillColor</key>
+												<string>{1.000, 1.000, 1.000, 1.000}</string>
+												<key>isDecreasingBranchThickness</key>
+												<true/>
+												<key>isDrawingFill</key>
+												<false/>
+												<key>isLeftAligned</key>
+												<false/>
+												<key>location</key>
+												<string>{805.60546875, -66.74609375}</string>
+												<key>nodeID</key>
+												<string>2C5F996D-3700-44C1-8B5D-FA154A726231</string>
+												<key>strokeColor</key>
+												<string>{0.689, 0.215, 0.952, 1.000}</string>
+												<key>strokeStyle</key>
+												<integer>0</integer>
+												<key>strokeWidth</key>
+												<real>3</real>
+												<key>subnodes</key>
+												<array>
+													<dict>
+														<key>contentAlignment</key>
+														<integer>1</integer>
+														<key>fillColor</key>
+														<string>{1.000, 1.000, 1.000, 1.000}</string>
+														<key>isDecreasingBranchThickness</key>
+														<true/>
+														<key>isDrawingFill</key>
+														<false/>
+														<key>isLeftAligned</key>
+														<false/>
+														<key>location</key>
+														<string>{1151.60546875, -68.24609375}</string>
+														<key>nodeID</key>
+														<string>90EA4992-7DE5-4AB0-B040-7017742662DA</string>
+														<key>strokeColor</key>
+														<string>{0.689, 0.215, 0.952, 1.000}</string>
+														<key>strokeStyle</key>
+														<integer>0</integer>
+														<key>strokeWidth</key>
+														<real>2</real>
+														<key>subnodes</key>
+														<array/>
+														<key>title</key>
+														<dict>
+															<key>constrainedWidth</key>
+															<integer>300</integer>
+															<key>htmlText</key>
+															<string>&lt;p style='text-align: left; '&gt;&lt;span style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica"; '&gt;??&lt;/span&gt;&lt;span style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "PingFang SC"; -cocoa-font-postscriptname: "PingFangSC-Regular"; '&gt;？？&lt;/span&gt;&lt;/p&gt;</string>
+															<key>shrinkToFitContent</key>
+															<integer>1</integer>
+															<key>text</key>
+															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 PingFangSC-Regular;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red93\green168\blue49;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c42745\c70196\c24706;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs35\fsmilli17600 \cf2 \cb3 \expnd0\expndtw0\kerning0
+??
+\f1 \'a3\'bf\'a3\'bf}</string>
+														</dict>
+													</dict>
+												</array>
+												<key>title</key>
+												<dict>
+													<key>constrainedWidth</key>
+													<integer>300</integer>
+													<key>htmlText</key>
+													<string>&lt;p style='text-align: left; '&gt;&lt;span style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica"; '&gt;implementing &lt;/span&gt;&lt;a style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica"; ' href='http://reactivex.io/'&gt;Reactive Extensions&lt;/a&gt;&lt;span style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica"; '&gt;.&lt;/span&gt;&lt;/p&gt;</string>
+													<key>shrinkToFitContent</key>
+													<integer>1</integer>
+													<key>text</key>
+													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red93\green168\blue49;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c42745\c70196\c24706;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs35\fsmilli17600 \cf2 \cb3 \expnd0\expndtw0\kerning0
+implementing\'a0{\field{\*\fldinst{HYPERLINK "http://reactivex.io/"}}{\fldrslt Reactive Extensions}}.}</string>
+												</dict>
+											</dict>
+										</array>
+										<key>title</key>
+										<dict>
+											<key>constrainedWidth</key>
+											<integer>667</integer>
+											<key>htmlText</key>
+											<string>&lt;p&gt;&lt;span style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica"; '&gt;Reactor offers &lt;/span&gt;&lt;span style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: bold 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica-Bold"; '&gt;2 reactive composable API&lt;/span&gt;&lt;span style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica"; '&gt; &lt;/span&gt;&lt;a style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica"; ' href='https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html'&gt;Flux [N] &lt;/a&gt;&lt;span style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica"; '&gt;and &lt;/span&gt;&lt;a style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica"; ' href='https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html'&gt;Mono [0|1]&lt;/a&gt;&lt;span style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica"; '&gt; extensively &lt;/span&gt;&lt;/p&gt;</string>
+											<key>shrinkToFitContent</key>
+											<integer>0</integer>
+											<key>text</key>
+											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red93\green168\blue49;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c42745\c70196\c24706;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs35\fsmilli17600 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Reactor offers\'a0
+\f1\b 2 reactive composable API
+\f0\b0 \'a0{\field{\*\fldinst{HYPERLINK "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html"}}{\fldrslt Flux [N]\'a0}}and\'a0{\field{\*\fldinst{HYPERLINK "https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Mono.html"}}{\fldrslt Mono [0|1]}}\'a0extensively }</string>
+										</dict>
+									</dict>
+									<dict>
+										<key>contentAlignment</key>
+										<integer>1</integer>
+										<key>fillColor</key>
+										<string>{1.000, 1.000, 1.000, 1.000}</string>
+										<key>isDecreasingBranchThickness</key>
+										<true/>
+										<key>isDrawingFill</key>
+										<false/>
+										<key>isLeftAligned</key>
+										<false/>
+										<key>location</key>
+										<string>{76.60546875, -27.24609375}</string>
+										<key>nodeID</key>
+										<string>DA209FAC-3C0E-4A83-8DDC-199756B39965</string>
+										<key>strokeColor</key>
+										<string>{0.689, 0.215, 0.952, 1.000}</string>
+										<key>strokeStyle</key>
+										<integer>0</integer>
+										<key>strokeWidth</key>
+										<real>4</real>
+										<key>subnodes</key>
+										<array>
+											<dict>
+												<key>contentAlignment</key>
+												<integer>1</integer>
+												<key>fillColor</key>
+												<string>{1.000, 1.000, 1.000, 1.000}</string>
+												<key>isDecreasingBranchThickness</key>
+												<true/>
+												<key>isDrawingFill</key>
+												<false/>
+												<key>isLeftAligned</key>
+												<false/>
+												<key>location</key>
+												<string>{436.60546875, -27.24609375}</string>
+												<key>nodeID</key>
+												<string>444ED4EF-1ECD-4682-8F3A-3AB8C3E5A13D</string>
+												<key>strokeColor</key>
+												<string>{0.689, 0.215, 0.952, 1.000}</string>
+												<key>strokeStyle</key>
+												<integer>0</integer>
+												<key>strokeWidth</key>
+												<real>3</real>
+												<key>subnodes</key>
+												<array/>
+												<key>title</key>
+												<dict>
+													<key>constrainedWidth</key>
+													<integer>300</integer>
+													<key>htmlText</key>
+													<string>&lt;p style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "PingFang SC"; -cocoa-font-postscriptname: "PingFangSC-Regular"; '&gt;和普通的请求Web应用有什么区别？？？&lt;/p&gt;</string>
+													<key>shrinkToFitContent</key>
+													<integer>1</integer>
+													<key>text</key>
+													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset134 PingFangSC-Regular;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red93\green168\blue49;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c42745\c70196\c24706;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs35\fsmilli17600 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \'ba\'cd\'c6\'d5\'cd\'a8\'b5\'c4\'c7\'eb\'c7\'f3Web\'d3\'a6\'d3\'c3\'d3\'d0\'ca\'b2\'c3\'b4\'c7\'f8\'b1\'f0\'a3\'bf\'a3\'bf\'a3\'bf}</string>
+												</dict>
+											</dict>
+										</array>
+										<key>title</key>
+										<dict>
+											<key>constrainedWidth</key>
+											<integer>300</integer>
+											<key>htmlText</key>
+											<string>&lt;p&gt;&lt;span style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica"; '&gt;Suited for &lt;/span&gt;&lt;span style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: bold 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica-Bold"; '&gt;Microservices&lt;/span&gt;&lt;span style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica"; '&gt; Architecture, Reactor offers &lt;/span&gt;&lt;span style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: bold 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica-Bold"; '&gt;backpressure-ready network engines&lt;/span&gt;&lt;span style='background-color: rgba(92, 167, 48, 1.000000); color: rgba(255, 254, 254, 1.000000); font: 17.6px "Helvetica"; -cocoa-font-postscriptname: "Helvetica"; '&gt; for HTTP (including Websockets), TCP and UDP.&lt;/span&gt;&lt;/p&gt;</string>
+											<key>shrinkToFitContent</key>
+											<integer>1</integer>
+											<key>text</key>
+											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red93\green168\blue49;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c42745\c70196\c24706;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs35\fsmilli17600 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Suited for\'a0
+\f1\b Microservices
+\f0\b0 \'a0Architecture, Reactor offers\'a0
+\f1\b backpressure-ready network engines
+\f0\b0 \'a0for HTTP (including Websockets), TCP and UDP.}</string>
+										</dict>
+									</dict>
+								</array>
+								<key>title</key>
+								<dict>
+									<key>constrainedWidth</key>
+									<integer>300</integer>
+									<key>htmlText</key>
+									<string>&lt;p style='color: rgba(91, 91, 91, 1.000000); font: 18px "Helvetica Neue"; -cocoa-font-postscriptname: "HelveticaNeue"; '&gt;&lt;a href='http://www.projectreactor.io'&gt;www.projectreactor.io&lt;/a&gt;&lt;/p&gt;</string>
+									<key>shrinkToFitContent</key>
+									<integer>1</integer>
+									<key>text</key>
+									<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red91\green91\blue91;}
+{\*\expandedcolortbl;;\csgenericrgb\c35700\c35700\c35700;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+{\field{\*\fldinst{HYPERLINK "http://www.projectreactor.io"}}{\fldrslt 
+\f0\fs36 \cf2 www.projectreactor.io}}}</string>
+								</dict>
+							</dict>
+							<dict>
+								<key>contentAlignment</key>
+								<integer>1</integer>
+								<key>fillColor</key>
+								<string>{1.000, 1.000, 1.000, 1.000}</string>
+								<key>isDecreasingBranchThickness</key>
+								<true/>
+								<key>isDrawingFill</key>
+								<false/>
+								<key>isLeftAligned</key>
+								<false/>
+								<key>location</key>
+								<string>{-170.39453125, 96.75390625}</string>
+								<key>nodeID</key>
+								<string>C2371312-BFC6-4950-8DDD-CC8BE03C923E</string>
+								<key>strokeColor</key>
+								<string>{0.689, 0.215, 0.952, 1.000}</string>
+								<key>strokeStyle</key>
+								<integer>0</integer>
+								<key>strokeWidth</key>
+								<real>5</real>
+								<key>subnodes</key>
+								<array>
+									<dict>
+										<key>contentAlignment</key>
+										<integer>1</integer>
+										<key>fillColor</key>
+										<string>{1.000, 1.000, 1.000, 1.000}</string>
+										<key>isDecreasingBranchThickness</key>
+										<true/>
+										<key>isDrawingFill</key>
+										<false/>
+										<key>isLeftAligned</key>
+										<false/>
+										<key>location</key>
+										<string>{270.60546875, 96.75390625}</string>
+										<key>nodeID</key>
+										<string>53045A5B-2243-4371-B65C-5F1ADD84DC9B</string>
+										<key>strokeColor</key>
+										<string>{0.689, 0.215, 0.952, 1.000}</string>
+										<key>strokeStyle</key>
+										<integer>0</integer>
+										<key>strokeWidth</key>
+										<real>4</real>
+										<key>subnodes</key>
+										<array/>
+										<key>title</key>
+										<dict>
+											<key>constrainedWidth</key>
+											<integer>300</integer>
+											<key>htmlText</key>
+											<string>&lt;p style='color: rgba(91, 91, 91, 1.000000); font: 18px "PingFang SC"; -cocoa-font-postscriptname: "PingFangSC-Regular"; '&gt;？？？？&lt;/p&gt;</string>
+											<key>shrinkToFitContent</key>
+											<integer>1</integer>
+											<key>text</key>
+											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset134 PingFangSC-Regular;}
+{\colortbl;\red255\green255\blue255;\red91\green91\blue91;}
+{\*\expandedcolortbl;;\csgenericrgb\c35700\c35700\c35700;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf2 \'a3\'bf\'a3\'bf\'a3\'bf\'a3\'bf}</string>
+										</dict>
+									</dict>
+								</array>
+								<key>title</key>
+								<dict>
+									<key>constrainedWidth</key>
+									<integer>379</integer>
+									<key>htmlText</key>
+									<string>&lt;p&gt;&lt;span style='color: rgba(91, 91, 91, 1.000000); font: 18px "PingFang SC"; -cocoa-font-postscriptname: "PingFangSC-Regular"; '&gt;实现：&lt;/span&gt;&lt;span style='background-color: rgba(39, 36, 33, 0.701961); color: rgba(255, 254, 254, 1.000000); font: 20px "Helvetica"; -cocoa-font-postscriptname: "Helvetica-Light"; '&gt; &lt;/span&gt;&lt;a style='color: rgba(255, 254, 254, 1.000000); font: 20px "Helvetica"; -cocoa-font-postscriptname: "Helvetica-Light"; ' href='https://github.com/reactive-streams/reactive-streams-jvm'&gt;Reactive Streams Specification&lt;/a&gt;&lt;/p&gt;</string>
+									<key>shrinkToFitContent</key>
+									<integer>0</integer>
+									<key>text</key>
+									<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset134 PingFangSC-Regular;\f1\fswiss\fcharset0 Helvetica-Light;}
+{\colortbl;\red255\green255\blue255;\red91\green91\blue91;\red255\green255\blue255;\red39\green36\blue34;
+}
+{\*\expandedcolortbl;;\csgenericrgb\c35700\c35700\c35700;\cssrgb\c100000\c100000\c100000;\cssrgb\c20392\c18824\c17647\c70196;
+}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf2 \'ca\'b5\'cf\'d6\'a3\'ba
+\f1\fs40 \cf3 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \'a0{\field{\*\fldinst{HYPERLINK "https://github.com/reactive-streams/reactive-streams-jvm"}}{\fldrslt \cb1 Reactive Streams Specification}}}</string>
+								</dict>
+							</dict>
+						</array>
+						<key>title</key>
+						<dict>
+							<key>constrainedWidth</key>
+							<integer>300</integer>
+							<key>htmlText</key>
+							<string>&lt;p style='color: rgba(91, 91, 91, 1.000000); font: 18px "Helvetica Neue"; -cocoa-font-postscriptname: "HelveticaNeue"; '&gt;reactor&lt;/p&gt;</string>
+							<key>shrinkToFitContent</key>
+							<integer>1</integer>
+							<key>text</key>
+							<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red91\green91\blue91;}
+{\*\expandedcolortbl;;\csgenericrgb\c35700\c35700\c35700;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs36 \cf2 reactor}</string>
+						</dict>
+					</dict>
+				</array>
+				<key>title</key>
+				<dict>
+					<key>constrainedWidth</key>
+					<integer>300</integer>
+					<key>htmlText</key>
+					<string>&lt;p style='color: rgba(21, 122, 150, 1.000000); font: 21px "Helvetica Neue"; -cocoa-font-postscriptname: "HelveticaNeue-Light"; '&gt;spring cloud gateway&lt;/p&gt;</string>
+					<key>shrinkToFitContent</key>
+					<integer>1</integer>
+					<key>text</key>
+					<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Light;}
+{\colortbl;\red255\green255\blue255;\red22\green123\blue151;}
+{\*\expandedcolortbl;;\csgenericrgb\c8600\c48200\c59200;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+
+\f0\fs42 \cf2 spring cloud gateway}</string>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+	<key>printInfo</key>
+	<data>
+	BAtzdHJlYW10eXBlZIHoA4QBQISEhAtOU1ByaW50SW5mbwGEhAhOU09iamVjdACFkoSE
+	hBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCUhAFpCJKEhIQITlNT
+	dHJpbmcBlIQBKxZOU0hvcml6b250YWxseUNlbnRlcmVkhpKEhIQITlNOdW1iZXIAhIQH
+	TlNWYWx1ZQCUhAEqhIQBY50BhpKEmZkNTlNSaWdodE1hcmdpboaShJuchIQBZp5IhpKE
+	mZkMTlNMZWZ0TWFyZ2luhpKfkoSZmRVOU0hvcml6b25hbFBhZ2luYXRpb26GkoSbnISX
+	lwKGkoSZmRROU1ZlcnRpY2FsUGFnaW5hdGlvboaShJucpJcAhpKEmZkUTlNWZXJ0aWNh
+	bGx5Q2VudGVyZWSGkpqShJmZC05TVG9wTWFyZ2luhpKEm5ygnlqGkoSZmQ5OU0JvdHRv
+	bU1hcmdpboaSqYaG
+	</data>
+	<key>title</key>
+	<string>spring cloud gateway</string>
+	<key>version</key>
+	<integer>4</integer>
+</dict>
+</plist>
