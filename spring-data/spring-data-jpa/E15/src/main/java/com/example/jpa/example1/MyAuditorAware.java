@@ -1,8 +1,6 @@
 package com.example.jpa.example1;
 
 import org.springframework.data.domain.AuditorAware;
-import org.springframework.web.context.request.RequestContextHolder;
-import org.springframework.web.context.request.ServletRequestAttributes;
 
 import java.util.Optional;
 public class MyAuditorAware implements AuditorAware<Integer> {
@@ -13,10 +11,10 @@ public class MyAuditorAware implements AuditorAware<Integer> {
 	 */
 	@Override
 	public Optional<Integer> getCurrentAuditor() {
-		ServletRequestAttributes servletRequestAttributes =
-				(ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
-		Integer userId = (Integer) servletRequestAttributes.getRequest().getSession().getAttribute("userId");
+//		ServletRequestAttributes servletRequestAttributes =
+//				(ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
+//		Integer userId = (Integer) servletRequestAttributes.getRequest().getSession().getAttribute("userId");
 
-		return Optional.ofNullable(userId);
+		return Optional.ofNullable(1);
 	}
 }
