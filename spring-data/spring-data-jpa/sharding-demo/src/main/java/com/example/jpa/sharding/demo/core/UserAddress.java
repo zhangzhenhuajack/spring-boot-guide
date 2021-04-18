@@ -1,4 +1,4 @@
-package com.example.jpa.sharding.demo;
+package com.example.jpa.sharding.demo.core;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

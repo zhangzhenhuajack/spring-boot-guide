@@ -1,4 +1,4 @@
-package com.example.jpa.sharding.demo;
+package com.example.jpa.sharding;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

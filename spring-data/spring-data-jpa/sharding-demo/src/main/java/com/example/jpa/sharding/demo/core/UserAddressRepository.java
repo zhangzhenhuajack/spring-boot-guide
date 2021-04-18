@@ -1,4 +1,4 @@
-package com.example.jpa.sharding.demo;
+package com.example.jpa.sharding.demo.core;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
