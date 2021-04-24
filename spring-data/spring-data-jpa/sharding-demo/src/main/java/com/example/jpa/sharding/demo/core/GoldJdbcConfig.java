@@ -1,4 +1,4 @@
-package com.example.jpa.sharding.demo.core.db;
+package com.example.jpa.sharding.demo.core;
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariConfigMXBean;
@@ -23,6 +23,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.Primary;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.util.StringUtils;
 
 import javax.sql.DataSource;
@@ -33,13 +34,18 @@ import java.util.Map;
 import java.util.Properties;
 
 @Configuration
-@AutoConfigureBefore(DataSourceAutoConfiguration.class)
+@AutoConfigureBefore(DataSourceAutoConfiguration.class) //优于DataSourceAutoConfiguration先加载，提前我们自己准备好数据源
+@EnableJpaAuditing
 public class GoldJdbcConfig {
     @Bean("hikariConfig")
     @ConfigurationProperties(prefix = "spring.datasource.hikari")
     public HikariConfig hikariConfig(){
         return new HikariConfig();
     }
+
+    /**
+     * 我们使用的是HikariDataSource，所以我们对数据源进行一下改造
+     */
     @Bean("dataSourceMap")
     public Map<String, DataSource> dataSourceMap(DataSourceProperties properties,HikariConfig hikariConfig) {
         hikariConfig.setDriverClassName(properties.determineDriverClassName());
@@ -52,7 +58,7 @@ public class GoldJdbcConfig {
         if (StringUtils.hasText(properties.getName())) {
             result.setPoolName(properties.getName());
         }
-        dataSourceMap.put("ds0",result);
+        dataSourceMap.put("ds0",result); // 配置真实数据源，由于我们只是分表，所以只需要配置一个数据源即可
         return dataSourceMap;
 
     }
@@ -60,7 +66,7 @@ public class GoldJdbcConfig {
      * 我们把我们的数据源，给sharding jdbc使用，并且还给了DataSourcePoolMetadataProvider使用，用来提供一些metric的监控指标
      */
     @Bean(name = "hikariPoolDataSourceMetadataProviderSharding")
-    @Primary
+    @Primary  //由于数据源可能有多个，我们以这个为准
     DataSourcePoolMetadataProvider hikariPoolDataSourceMetadataProvider(@Qualifier("dataSourceMap") Map<String, DataSource> dataSourceMap ) {
         return (dataSource) -> {
             HikariDataSource hikariDataSource = DataSourceUnwrapper.unwrap(dataSourceMap.get("ds0"), HikariConfigMXBean.class,
@@ -75,12 +81,8 @@ public class GoldJdbcConfig {
     @Bean
     @Primary //由于数据源可能有多个，我们以这个为准
     public DataSource dataSource(@Qualifier("dataSourceMap") Map<String, DataSource> dataSourceMap) throws SQLException {
-        // 配置真实数据源，由于我们只是分表，所以只需要配置一个数据源即可
-//        Map<String, DataSource> dataSourceMap = new HashMap<>();
-//        dataSourceMap.put("ds0", dataSourceMap.get());
-
         // 配置Order表规则,利用groovy语法，我们把1-256转化成16进制表示，这里就是UUID的前两位。
-        TableRuleConfiguration orderTableRuleConfig = new TableRuleConfiguration("user_orders","ds0.user_orders${(1..3).collect{e->Integer.toHexString(0x1000 | e).substring(2)}}");
+        TableRuleConfiguration orderTableRuleConfig = new TableRuleConfiguration("user_orders","ds0.user_orders${(1..256).collect{e->Integer.toHexString(0x1000 | e).substring(2)}}");
 
         // 配置分库 + 分表策略
         orderTableRuleConfig.setDatabaseShardingStrategyConfig(new InlineShardingStrategyConfiguration("uuid", "ds0"));

@@ -1,0 +1,14 @@
+GET http://127.0.0.1:8089/user/fcaddefuuid/orders
+
+###
+
+
+
+POST
+{
+    "id": 1,
+      "uuid": "fcaddefuuid",
+      "amount": 1,
+      "createdAt": "2021-04-24T05:37:27Z",
+      "businessCode": "1"
+    }

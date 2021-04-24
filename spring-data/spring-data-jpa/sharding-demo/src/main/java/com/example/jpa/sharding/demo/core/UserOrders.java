@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
 import java.time.Instant;
@@ -16,6 +17,7 @@ import java.time.Instant;
 @AllArgsConstructor
 @Table(name = "user_orders",indexes = {@Index(unique = true,columnList = "businessCode"),@Index(columnList = "uuid")})
 @org.hibernate.annotations.Table(appliesTo = "user_orders", comment = "用户订单表")//为了给表添加注释
+@EntityListeners(AuditingEntityListener.class)
 public class UserOrders {
     @Id
     @GeneratedValue(strategy = GenerationType.TABLE)

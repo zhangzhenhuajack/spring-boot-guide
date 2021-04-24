@@ -19,7 +19,7 @@ public class UserOrdersController {
      * @param userOrders
      * @return
      */
-    @PostMapping("user")
+    @PostMapping("user/order")
     public UserOrders create(@RequestBody UserOrders userOrders) {
         return userOrdersRepository.save(userOrders);
     }
