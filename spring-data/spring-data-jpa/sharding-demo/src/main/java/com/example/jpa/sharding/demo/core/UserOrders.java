@@ -14,8 +14,8 @@ import java.time.Instant;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "user_order",indexes = {@Index(unique = true,columnList = "businessCode"),@Index(columnList = "uuid")})
-@org.hibernate.annotations.Table(appliesTo = "user_order", comment = "用户订单表")//为了给表添加注释
+@Table(name = "user_orders",indexes = {@Index(unique = true,columnList = "businessCode"),@Index(columnList = "uuid")})
+@org.hibernate.annotations.Table(appliesTo = "user_orders", comment = "用户订单表")//为了给表添加注释
 public class UserOrders {
     @Id
     @GeneratedValue(strategy = GenerationType.TABLE)
