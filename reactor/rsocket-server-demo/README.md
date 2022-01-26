@@ -1,0 +1,1 @@
+Rsocket总体来说文档太少了，都说支持，但是不够详细；目前Message的转化有问题，都用String的话，server和client 是通的
